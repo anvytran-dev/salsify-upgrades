@@ -1,0 +1,68 @@
+*{
+    box-sizing: border-box;
+    font-size: 62.5%;
+}
+
+.mainActivity{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+}
+
+.secInputBar{
+    display: flex;
+    justify-content:flex-start;
+}
+
+
+#userInput{
+    font-size: 2rem;
+    border-radius: 10px;
+    width: 15%;
+}
+
+#h2Invalid{
+    font-size: 2rem;
+}
+
+#runButton{
+    font-size: 2rem;
+    color: white;
+    border-radius: 10px;
+    background-color: rgb(127, 188, 215);
+    padding: 1rem 2rem;
+    margin-left: 1rem;
+}
+
+.secProgressBar{
+    width: 50%;
+}
+
+.divProgressBarWrapper{
+    border-radius: 10px;
+    border: .1rem solid black;
+    width: 100%;
+    position: relative;
+    
+}
+
+#progressBar{
+    border-top-left-radius: 10px;
+    border-bottom-left-radius: 10px;
+    background-color: rgb(49, 143, 91);
+    height: 6rem;
+    width: 0%;
+    position: absolute;
+}
+
+#animatedProgressBar{
+    border-radius: 10px;
+    background-color: rgb(154, 98, 218);
+    height: 6rem;
+    width: 0%;
+}
+
+#h2Message{
+    font-size: 4rem;
+}
+
